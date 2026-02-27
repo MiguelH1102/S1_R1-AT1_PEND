@@ -1,4 +1,4 @@
-## Miguel Henrri Gomes Nunes:
+## Miguel Henri Gomes Nunes:
     -Estruturou o codigo
     -Ajudou na criaçao de identidade visual
 
