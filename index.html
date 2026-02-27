@@ -8,41 +8,53 @@
 </head>
 <body class="bg-light">
     <header class="container-fluid">
-           <img src="image - Editado.png" class="img-fluid" style="max-width: 80px;" alt="Logo">
+        <!--Link da imagem de logo-->
+           <img src="image - Editado.png" class="img-fluid" style="max-width: 80px" alt="Logo">
             
     </header>
-     <main class="container">
-    <div class="row justify-content-center">
-        <div class="col-12 col-sm-8 col-md-5 col-lg-4">
+    <!-- Conteúdo principal -->
+    <main class="container">
+        <!-- Linha centralizada -->
+        <div class="row justify-content-center">
+            
+            <!-- Coluna responsiva (se adapta ao tamanho da tela) -->
+            <div class="col-12 col-sm-8 col-md-5 col-lg-4">
 
-            <h1 class="text-center mt-4 mb-4">Login</h1>
+                <!-- Título da página -->
+                <h1 class="text-center mt-4 mb-4">Login</h1>
 
-            <form class="card p-4 shadow">
+                <!-- Formulário de login -->
+                <form class="card p-4 shadow">
 
-                <div class="mb-3 text-start">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" id="email" class="form-control" required>
-                </div>
+                    <!-- Campo de Email -->
+                    <div class="mb-3 text-start">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" class="form-control" required> <!-- Campo obrigatório -->
+                    </div>
 
-                <div class="mb-3 text-start">
-                    <label for="senha" class="form-label">Senha</label>
-                    <input type="password" id="senha" class="form-control" required>
-                </div>
+                    <!-- Campo de Senha-->
+                    <div class="mb-3 text-start">
+                        <label for="senha" class="form-label">Senha</label>
+                        <input type="password" id="senha" class="form-control" required> <!-- Campo obrigatório -->
+                    </div>
 
-                <button type="submit" class="btn btn-primary w-100">
-                    Entrar
-                </button>
+                    <!-- Botão de envio do formulário (Entrar)-->
+                    <button type="submit" class="btn btn-primary w-100">
+                        Entrar
+                    </button>
 
-                <div class="text-center mt-3">
-                    <a href="#">Esqueci minha senha</a>
-                </div>
+                    <!-- Link para recuperação de senha (Só para ser visual) -->
+                    <div class="text-center mt-3">
+                        <a href="#">Esqueci minha senha</a>
+                    </div>
 
-            </form>
+                </form>
 
+            </div>
         </div>
-    </div>
-</main>
+    </main>
 
+      <!-- Rodapé da página  reservando os direitos-->
       <footer class="text-muted text-center mt-5">
         <p>©Todos os direitos reservados</p>
     </footer>
